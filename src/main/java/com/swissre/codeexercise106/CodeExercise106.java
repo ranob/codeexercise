@@ -7,6 +7,11 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import com.opencsv.exceptions.CsvException;
+import com.swissre.codeexercise106.model.Anomaly;
+import com.swissre.codeexercise106.model.AnomalyType;
+import com.swissre.codeexercise106.model.Employee;
+import com.swissre.codeexercise106.services.CsvReaderService;
+import com.swissre.codeexercise106.services.EmployeeReportService;
 
 public class CodeExercise106 {
 

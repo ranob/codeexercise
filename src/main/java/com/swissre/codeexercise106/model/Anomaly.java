@@ -1,4 +1,4 @@
-package com.swissre.codeexercise106;
+package com.swissre.codeexercise106.model;
 
 import lombok.Getter;
 import lombok.Setter;

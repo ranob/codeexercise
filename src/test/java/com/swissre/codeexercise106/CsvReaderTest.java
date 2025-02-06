@@ -12,8 +12,8 @@ import org.junit.jupiter.api.Test;
 
 import com.opencsv.exceptions.CsvException;
 import com.swissre.codeexercise106.CsvReader;
-import com.swissre.codeexercise106.CsvReaderService;
-import com.swissre.codeexercise106.Employee;
+import com.swissre.codeexercise106.model.Employee;
+import com.swissre.codeexercise106.services.CsvReaderService;
 
 class CsvReaderTest {
 

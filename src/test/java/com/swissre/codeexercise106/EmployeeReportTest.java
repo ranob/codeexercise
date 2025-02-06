@@ -8,13 +8,13 @@ import java.io.IOException;
 import java.util.List;
 import static org.junit.jupiter.api.Assertions.*;
 import com.opencsv.exceptions.CsvException;
-import com.swissre.codeexercise106.Anomaly;
-import com.swissre.codeexercise106.AnomalyType;
 import com.swissre.codeexercise106.CsvReader;
-import com.swissre.codeexercise106.CsvReaderService;
-import com.swissre.codeexercise106.Employee;
 import com.swissre.codeexercise106.EmployeeReport;
-import com.swissre.codeexercise106.EmployeeReportService;
+import com.swissre.codeexercise106.model.Anomaly;
+import com.swissre.codeexercise106.model.AnomalyType;
+import com.swissre.codeexercise106.model.Employee;
+import com.swissre.codeexercise106.services.CsvReaderService;
+import com.swissre.codeexercise106.services.EmployeeReportService;
 
 class EmployeeReportTest {
 

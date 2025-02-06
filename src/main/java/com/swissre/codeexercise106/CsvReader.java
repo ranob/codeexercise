@@ -11,6 +11,8 @@ import org.slf4j.LoggerFactory;
 import com.opencsv.CSVReader;
 import com.opencsv.CSVReaderBuilder;
 import com.opencsv.exceptions.CsvException;
+import com.swissre.codeexercise106.model.Employee;
+import com.swissre.codeexercise106.services.CsvReaderService;
 
 public class CsvReader implements CsvReaderService{
 

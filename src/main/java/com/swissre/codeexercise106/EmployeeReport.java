@@ -8,6 +8,11 @@ import java.util.Map;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import com.swissre.codeexercise106.model.Anomaly;
+import com.swissre.codeexercise106.model.AnomalyType;
+import com.swissre.codeexercise106.model.Employee;
+import com.swissre.codeexercise106.services.EmployeeReportService;
+
 public class EmployeeReport implements EmployeeReportService {
 	private static final Logger logger = LoggerFactory.getLogger(EmployeeReport.class);
 
